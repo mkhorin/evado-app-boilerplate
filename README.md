@@ -1,6 +1,6 @@
 # Evado Boilerplate Application
 
-Lightweight and feature-rich boilerplate for rapid building a business application.
+Lightweight and feature-rich boilerplate for rapid building a business web application.
 
 [Evado Kit](https://github.com/mkhorin/evado)
 
