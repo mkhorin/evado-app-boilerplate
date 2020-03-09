@@ -1,6 +1,6 @@
 {
   "name": "evado-app-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evado Boilerplate Application",
   "author": "Maxim Khorin",
   "license": "MIT",
@@ -20,8 +20,8 @@
     "evado-module-admin": "~1.0.0",
     "evado-module-cabinet": "~1.0.0",
     "evado-module-office": "~1.0.0",
-    "evado-module-studio": "~1.0.0",
-    "sharp": "^0.24.1"
+    "evado-module-studio": "~1.0.1",
+    "sharp": "^0.25.1"
   },
   "scripts": {
     "start": "node console/start"
