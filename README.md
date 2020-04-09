@@ -1,8 +1,8 @@
-# Evado Boilerplate Application
+# Evado Boilerplate App
 
 Lightweight and feature-rich boilerplate for rapid building a business web application.
 
-- [Evado Kit](https://github.com/mkhorin/evado)
+- [Evado Platform](https://github.com/mkhorin/evado)
 - [Step-by-step tutorial](http://nervebit.com)
 
 ## Docker installation

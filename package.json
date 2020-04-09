@@ -1,27 +1,27 @@
 {
   "name": "evado-app-boilerplate",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Evado Boilerplate Application",
   "author": "Maxim Khorin",
   "license": "MIT",
   "engines": {
-    "node": ">=12.14.1"
+    "node": ">=12.16.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mkhorin/evado-app-boilerplate.git"
   },
   "dependencies": {
-    "evado": "~1.0.0",
-    "evado-api-document": "~1.0.0",
-    "evado-api-navigation": "~1.0.0",
-    "evado-meta-document": "~1.0.0",
-    "evado-meta-navigation": "~1.0.0",
-    "evado-module-admin": "~1.0.0",
-    "evado-module-cabinet": "~1.0.0",
-    "evado-module-office": "~1.0.0",
-    "evado-module-studio": "~1.0.1",
-    "sharp": "^0.25.1"
+    "evado": "~1.1.0",
+    "evado-api-document": "~1.1.0",
+    "evado-api-navigation": "~1.1.0",
+    "evado-meta-document": "~1.1.0",
+    "evado-meta-navigation": "~1.1.0",
+    "evado-module-admin": "~1.1.0",
+    "evado-module-account": "~1.1.0",
+    "evado-module-office": "~1.1.0",
+    "evado-module-studio": "~1.1.0",
+    "sharp": "0.24.1"
   },
   "scripts": {
     "start": "node console/start"
