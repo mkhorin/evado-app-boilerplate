@@ -20,6 +20,7 @@ module.exports = {
             // language: 'ru'
         },
         'router': {
+            // defaultModule: 'front'
         },
         'fileStorage': {
         }

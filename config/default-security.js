@@ -5,6 +5,7 @@ const parent = require('evado/config/default-security');
 module.exports = {
 
     metaPermissions: [{
+        description: 'Full access to data',
         type: 'allow',
         roles: ['administrator'],
         actions: ['all'],
@@ -28,7 +29,7 @@ module.exports = {
     roles: {
         'administrator': {
             label: 'Administrator',
-            description: 'Full access to all application functionality',
+            description: 'Full access to all',
             children: [
                 'moduleAdmin',
                 'moduleOffice',
