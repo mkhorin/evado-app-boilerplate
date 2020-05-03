@@ -26,8 +26,8 @@ module.exports = {
         }
     },
     metaModels: {
-        'document': {
-            Class: require('evado-meta-document/base/DocMeta'),
+        'base': {
+            Class: require('evado-meta-base/base/BaseMeta'),
             DataHistoryModel: {
                 Class: require('evado-module-office/model/DataHistory')
             },
@@ -43,8 +43,8 @@ module.exports = {
         'api': {
             config: {
                 modules: {
-                    'document': {
-                        Class: require('evado-api-document/Module')
+                    'base': {
+                        Class: require('evado-api-base/Module')
                     },
                     'navigation': {
                         Class: require('evado-api-navigation/Module')
