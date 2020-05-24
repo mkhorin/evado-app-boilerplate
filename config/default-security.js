@@ -6,13 +6,12 @@ module.exports = {
 
     metaPermissions: [{
         description: 'Full access to data',
+        roles: 'administrator',
         type: 'allow',
-        roles: ['administrator'],
-        actions: ['all'],
-        targets: [{
-            type: 'all'
-        }]
+        actions: 'all',
+        targets: {type: 'all'}
     }],
+
     permissions: {
         ...parent.permissions,
 
@@ -26,6 +25,7 @@ module.exports = {
             label: 'Studio module'
         }
     },
+
     roles: {
         'administrator': {
             label: 'Administrator',
@@ -33,17 +33,20 @@ module.exports = {
             children: [
                 'moduleAdmin',
                 'moduleOffice',
-                'moduleStudio',
-                'upload'
+                'moduleStudio'
             ]
         },
         'guest': {
             label: 'Guest',
             description: 'Auto-assigned role for unauthenticated users'
+        },
+        'user': {
+            label: 'User',
+            description: 'Default role for new registered user'
         }
     },
     // bind users to roles
     assignments: {
-        'Adam': ['administrator']
+        'Adam': 'administrator'
     }
 };
