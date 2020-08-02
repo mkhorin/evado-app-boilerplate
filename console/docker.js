@@ -6,5 +6,6 @@ const instance = new Console({Application});
 
 (async () => {
     await instance.deployAssets();
+    await instance.importDataFiles();
     await instance.startApp();
 })();
