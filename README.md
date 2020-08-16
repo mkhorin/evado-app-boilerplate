@@ -1,32 +1,11 @@
 # Evado Boilerplate App
 
-Lightweight and feature-rich boilerplate for rapid building a business web application.
+Lightweight and feature-rich template for rapid building web applications.
 
 - [Evado Framework](https://github.com/mkhorin/evado)
 - [Step-by-step tutorial](http://nervebit.com)
 
-## Docker installation
-
-Clone application to /app
-```sh
-cd /app
-docker-compose up -d mongo
-docker-compose up --build installer
-docker-compose up -d server
-```
-Usage - http://localhost:3000
-
-Or get Docker Toolbox IP address
-```sh
-docker-machine ip default
-```
-Usage - http://{dockerIP}:3000
-```sh
-Email: a@a.a
-Password: 123456
-```
-
-## Typical installation
+## Installation
 
 #### Install environment
 - [Node.js](https://nodejs.org)
@@ -38,7 +17,6 @@ Clone application to /app
 cd /app
 npm install
 NODE_ENV=development node console/install
-NODE_ENV=development node console/start
 ```
 
 #### Windows
@@ -48,10 +26,23 @@ cd c:/app
 npm install
 set NODE_ENV=development
 node console/install
-node console/start
 ```
 
-#### Usage 
+## Start app
+
+#### Linux
+```sh
+cd /app
+NODE_ENV=development node console/start
+```
+
+#### Windows
+```sh
+cd c:/app
+set NODE_ENV=development
+node console/start
+```
+ 
 http://localhost:3000
 ```sh
 Email: a@a.a

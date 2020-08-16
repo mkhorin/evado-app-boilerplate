@@ -21,19 +21,11 @@ module.exports = {
         },
         'router': {
             // defaultModule: 'front'
-        },
-        'fileStorage': {
         }
     },
     metaModels: {
         'base': {
-            Class: require('evado-meta-base/base/BaseMeta'),
-            DataHistoryModel: {
-                Class: require('evado-module-office/model/DataHistory')
-            },
-            UserModel: {
-                Class: require('evado-module-office/model/User')
-            }
+            Class: require('evado-meta-base/base/BaseMeta')
         },
         'navigation': {
             Class: require('evado-meta-navigation/base/NavMeta')
@@ -69,13 +61,16 @@ module.exports = {
         }
     },
     users: require('./default-users'),
+    userFilters: require('./default-userFilters'),
     security: require('./default-security'),
+    notices: require('./default-notices'),
     tasks: require('./default-tasks'),
     utilities: require('./default-utilities'),
+    eventHandlers: require('./default-eventHandlers'),
+    listeners: require('./default-listeners'),
     params: {
-    },
-    widgets: {
-        'commonMenu': {
-        }
+        'enablePasswordReset': false,
+        'enableSignUp': false,
+        'enableSignUpVerification': false
     }
 };

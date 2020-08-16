@@ -23,6 +23,9 @@ module.exports = {
         },
         'moduleStudio': {
             label: 'Studio module'
+        },
+        'moduleApiBaseUpload': {
+            label: 'Upload files'
         }
     },
 
@@ -33,7 +36,8 @@ module.exports = {
             children: [
                 'moduleAdmin',
                 'moduleOffice',
-                'moduleStudio'
+                'moduleStudio',
+                'moduleApiBaseUpload'
             ]
         },
         'guest': {
@@ -42,11 +46,31 @@ module.exports = {
         },
         'user': {
             label: 'User',
-            description: 'Default role for new registered users'
+            description: 'Default role for authenticated users',
+            children: [
+                'moduleOffice',
+                'moduleApiBaseUpload'
+            ]
         }
     },
+
+    rules: {
+        'creator': {
+            label: 'Creator',
+            description: 'Check user binding as object creator',
+            config: {
+                Class: 'evado/component/meta/rbac/rule/UserRule',
+                attr: '_creator'
+            }
+        }
+    },
+
     // bind users to roles
     assignments: {
         'Adam': 'administrator'
+    },
+
+    // rules to bind users to roles
+    assignmentRules: {        
     }
 };
