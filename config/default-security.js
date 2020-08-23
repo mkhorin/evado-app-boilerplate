@@ -16,16 +16,20 @@ module.exports = {
         ...parent.permissions,
 
         'moduleAdmin': {
-            label: 'Admin module'
+            label: 'Admin module',
+            description: 'Access to Admin module'
         },
         'moduleOffice': {
-            label: 'Office module'
+            label: 'Office module',
+            description: 'Access to Office module'
         },
         'moduleStudio': {
-            label: 'Studio module'
+            label: 'Studio module',
+            description: 'Access to Studio module'
         },
         'moduleApiBaseUpload': {
-            label: 'Upload files'
+            label: 'Upload files',
+            description: 'Uploading files via basic metadata API module'
         }
     },
 
@@ -42,7 +46,7 @@ module.exports = {
         },
         'guest': {
             label: 'Guest',
-            description: 'Auto-assigned role for unauthenticated users'
+            description: 'Auto-assigned role for anonymous users'
         },
         'user': {
             label: 'User',
@@ -70,7 +74,7 @@ module.exports = {
         'Adam': 'administrator'
     },
 
-    // rules to bind users to roles
+    // rules to auto-bind users to roles
     assignmentRules: {        
     }
 };
