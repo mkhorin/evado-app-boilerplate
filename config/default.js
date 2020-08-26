@@ -69,6 +69,7 @@ module.exports = {
     eventHandlers: require('./default-eventHandlers'),
     listeners: require('./default-listeners'),
     params: {
+        'enablePasswordChange': true,
         'enablePasswordReset': false,
         'enableSignUp': false,
         'enableSignUpVerification': false
