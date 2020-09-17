@@ -2,7 +2,7 @@
 
 Lightweight and feature-rich template for rapid building web applications.
 
-- [Evado Framework](https://github.com/mkhorin/evado)
+- [Evado Declarative Framework](https://github.com/mkhorin/evado)
 - [Step-by-step tutorial](http://nervebit.com)
 
 ## Installation
@@ -42,8 +42,12 @@ cd c:/app
 set NODE_ENV=development
 node console/start
 ```
+  
+## Usage
  
-http://localhost:3000
+Web interface: [http://localhost:3000](http://localhost:3000)
+
+Sign in as administrator:
 ```sh
 Email: a@a.a
 Password: 123456

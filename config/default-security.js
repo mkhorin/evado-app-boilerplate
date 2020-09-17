@@ -16,8 +16,8 @@ module.exports = {
         ...parent.permissions,
 
         'moduleAdmin': {
-            label: 'Admin module',
-            description: 'Access to Admin module'
+            label: 'Administration module',
+            description: 'Access to Administration module'
         },
         'moduleOffice': {
             label: 'Office module',

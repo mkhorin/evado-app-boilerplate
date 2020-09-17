@@ -16,11 +16,13 @@ const instance = new Console({Application, params});
             await instance.createUsers();
             await instance.createSecurity();
             await instance.createTasks();
+            await instance.createUserFilters();
             await instance.createNotices();
             await instance.createEventHandlers();
             await instance.createListeners();
             // await instance.importData({oneByOne: false});
             // await instance.importStudioData();
+            // await instance.createIndexes();
         });
     } catch (err) {
         console.error(err);
