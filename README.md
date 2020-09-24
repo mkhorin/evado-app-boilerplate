@@ -1,9 +1,8 @@
 # Evado Boilerplate App
 
-Lightweight and feature-rich template for rapid building web applications.
-
-- [Evado Declarative Framework](https://github.com/mkhorin/evado)
-- [Step-by-step tutorial](http://nervebit.com)
+Lightweight and feature-rich template built on 
+[Evado Declarative Framework](https://github.com/mkhorin/evado) 
+for rapid building web applications.
 
 ## Installation
 
@@ -54,4 +53,4 @@ Password: 123456
 ```
 
 ## Tutorial
-- [Build App Without Coding](http://nervebit.com)
+- [Build an App Without Coding](http://nervebit.com)
