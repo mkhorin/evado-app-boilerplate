@@ -66,7 +66,7 @@ module.exports = {
             description: 'Check user binding as object creator',
             config: {
                 Class: 'evado/component/meta/rbac/rule/UserRule',
-                attr: '_creator'
+                userAttr: '_creator'
             }
         }
     },
