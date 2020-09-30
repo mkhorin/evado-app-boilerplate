@@ -11,10 +11,10 @@ module.exports = {
             }
         },
         'cookie': {
-            secret: 'boilerplate.evado'
+            secret: 'boilerplate.evado.sign' // key to sign cookie
         },
         'session': {
-            secret: 'boilerplate.evado'
+            secret: 'boilerplate.evado.sign'  // key to sign session ID cookie
         },
         'i18n': {
             // language: 'ru'
