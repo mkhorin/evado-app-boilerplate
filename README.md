@@ -11,7 +11,7 @@ for rapid building web applications.
 - [MongoDB](https://www.mongodb.com/download-center/community) (version 4)
 
 #### Linux
-Clone application to /app
+Copy template files to /app and then
 ```sh
 cd /app
 npm install
@@ -19,7 +19,7 @@ NODE_ENV=development node console/install
 ```
 
 #### Windows
-Clone application to c:/app
+Copy template files to c:/app and then
 ```sh
 cd c:/app
 npm install
