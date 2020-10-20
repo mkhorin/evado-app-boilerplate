@@ -17,10 +17,10 @@ module.exports = {
             secret: 'boilerplate.evado.sign'  // key to sign session ID cookie
         },
         'i18n': {
-            // language: 'ru'
+            language: 'en'
         },
         'router': {
-            // defaultModule: 'front'
+            // defaultModule: 'office'
         }
     },
     metaModels: {

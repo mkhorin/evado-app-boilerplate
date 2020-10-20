@@ -2,7 +2,9 @@
 
 Lightweight and feature-rich template built on 
 [Evado Declarative Framework](https://github.com/mkhorin/evado) 
-for rapid building web applications.
+for rapid web app development.
+
+![Evado Declarative Framework](https://github.com/mkhorin/evado/blob/master/doc/evado-framework-steps.jpg)
 
 ## Installation
 
@@ -11,7 +13,7 @@ for rapid building web applications.
 - [MongoDB](https://www.mongodb.com/download-center/community) (version 4)
 
 #### Linux
-Copy template files to /app and then
+Copy template files to /app
 ```sh
 cd /app
 npm install
@@ -19,7 +21,7 @@ NODE_ENV=development node console/install
 ```
 
 #### Windows
-Copy template files to c:/app and then
+Copy template files to c:/app
 ```sh
 cd c:/app
 npm install

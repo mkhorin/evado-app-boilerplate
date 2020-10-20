@@ -19,26 +19,26 @@ module.exports = {
 
         'moduleAdmin': {
             label: 'Administration module',
-            description: 'Access to Administration module'
+            description: 'Access to the Administration module'
         },
         'moduleOffice': {
             label: 'Office module',
-            description: 'Access to Office module'
+            description: 'Access to the Office module'
         },
         'moduleStudio': {
             label: 'Studio module',
-            description: 'Access to Studio module'
+            description: 'Access to the Studio module'
         },
         'moduleApiBaseUpload': {
             label: 'Upload files',
-            description: 'Uploading files via basic metadata API module'
+            description: 'Uploading files through the base metadata API module'
         }
     },
 
     roles: {
         'administrator': {
             label: 'Administrator',
-            description: 'Full access to all',
+            description: 'Full access to system',
             children: [
                 'moduleAdmin',
                 'moduleOffice',
