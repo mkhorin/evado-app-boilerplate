@@ -9,7 +9,7 @@ for rapid web app development.
 ## Installation
 
 #### Install environment
-- [Node.js](https://nodejs.org) (version 12)
+- [Node.js](https://nodejs.org) (version 14)
 - [MongoDB](https://www.mongodb.com/download-center/community) (version 4)
 
 #### Linux
