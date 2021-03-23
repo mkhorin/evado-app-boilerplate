@@ -70,6 +70,7 @@ module.exports = {
         'enablePasswordChange': true,
         'enablePasswordReset': false,
         'enableSignUp': false,
-        'enableSignUpVerification': false
+        'enableSignUpVerification': false,
+        'languageToggle': false
     }
 };
