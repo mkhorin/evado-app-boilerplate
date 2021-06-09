@@ -21,6 +21,12 @@ module.exports = {
         },
         'router': {
             // defaultModule: 'office'
+        },
+        's3Storage': {
+            Class: require('evado/component/file/S3Storage'),
+            accessKey: 'minioadmin',
+            secretKey: 'minioadmin',
+            bucket: 'test'
         }
     },
     metaModels: {
