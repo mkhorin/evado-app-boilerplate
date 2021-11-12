@@ -13,7 +13,7 @@ for rapid web app development.
 - [MongoDB](https://www.mongodb.com/download-center/community) (version 4)
 
 #### Linux
-Copy files to /app
+Copy files from repository to /app
 ```sh
 cd /app
 npm install
@@ -21,7 +21,7 @@ NODE_ENV=development node console/install
 ```
 
 #### Windows
-Copy files to c:/app
+Copy files from repository to c:/app
 ```sh
 cd c:/app
 npm install
