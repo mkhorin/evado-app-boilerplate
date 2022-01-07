@@ -63,6 +63,7 @@ module.exports = {
             Class: require('evado-module-admin/Module')
         }
     },
+    assets: require('./default-assets'),
     users: require('./default-users'),
     userFilters: require('./default-userFilters'),
     security: require('./default-security'),
