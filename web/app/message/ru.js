@@ -25,8 +25,19 @@ Jam.I18n.custom = {
     'Some text': 'Некоторый текст'
 };
 
-// METADATA
-
+/**
+ * Metadata translation category
+ *
+ * meta - all metadata
+ * meta.class.className - class metadata
+ * meta.class.className.view.viewName - class view metadata
+ */
 Jam.I18n.meta = {
+
+};
+Jam.I18n['meta.class.className'] = {
+
+};
+Jam.I18n['meta.class.className.view.viewName'] = {
 
 };
