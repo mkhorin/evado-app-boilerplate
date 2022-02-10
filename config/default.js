@@ -54,7 +54,7 @@ module.exports = {
             Class: require('evado-module-studio/Module')
         },
         'office': {
-            Class: require('../module/office/Module')
+            Class: require('evado-module-office/Module')
         },
         'account': {
             Class: require('evado-module-account/Module')
