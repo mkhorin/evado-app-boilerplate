@@ -1,7 +1,7 @@
 # Evado Boilerplate App
 
-Lightweight and feature-rich template built on 
-[Evado Declarative Framework](https://github.com/mkhorin/evado) 
+Lightweight and feature-rich template built on
+[Evado Declarative Framework](https://github.com/mkhorin/evado)
 for rapid web app development.
 
 ![Evado Declarative Framework](https://github.com/mkhorin/evado/blob/master/doc/evado-framework-steps.jpg)
@@ -43,9 +43,9 @@ cd c:/app
 set NODE_ENV=development
 node console/start
 ```
-  
+
 ## Usage
- 
+
 Web interface `http://localhost:3000`
 
 Sign in as administrator:
