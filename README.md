@@ -55,4 +55,4 @@ Password: 123456
 ```
 
 ## Tutorial
-- [Build an App Without Coding](http://nervebit.com)
+- [Build an App Without Coding](https://mkhorin.github.io/evado-site/)
