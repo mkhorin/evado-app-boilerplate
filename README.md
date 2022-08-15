@@ -6,7 +6,17 @@ for rapid web app development.
 
 ![Evado Declarative Framework](https://github.com/mkhorin/evado/blob/master/doc/evado-framework-steps.jpg)
 
-## Installation
+## Docker installation
+
+Clone application to `/app`
+```sh
+cd /app
+docker-compose up -d mongo
+docker-compose up --build installer
+docker-compose up -d server
+```
+
+## Typical installation
 
 #### Install environment
 - [Node.js](https://nodejs.org) (version 16)

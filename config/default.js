@@ -78,6 +78,6 @@ module.exports = {
         'enablePasswordReset': false,
         'enableSignUp': false,
         'enableSignUpVerification': false,
-        'languageToggle': false
+        'languageToggle': true
     }
 };
