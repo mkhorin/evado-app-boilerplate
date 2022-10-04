@@ -22,7 +22,7 @@
     "evado-module-office": "~5.4.0",
     "evado-module-studio": "~5.4.0",
     "minio": "~7.0.26",
-    "sharp": "~0.30.0"
+    "sharp": "~0.31.0"
   },
   "scripts": {
     "start": "node console/start"
