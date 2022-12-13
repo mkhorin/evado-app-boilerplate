@@ -73,6 +73,7 @@ module.exports = {
     eventHandlers: require('./default-eventHandlers'),
     listeners: require('./default-listeners'),
     sideMenu: require('./default-sideMenu'),
+    widgets: require('./default-widgets'),
     params: {
         'enablePasswordChange': true,
         'enablePasswordReset': false,
