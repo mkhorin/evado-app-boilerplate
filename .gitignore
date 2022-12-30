@@ -5,6 +5,8 @@
 **/config/*.local.js
 **/web/vendor/
 
+/web/app/vendor/
+
 /data/*
 !/data/default/
 
