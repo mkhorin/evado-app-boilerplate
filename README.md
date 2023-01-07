@@ -4,7 +4,7 @@ Lightweight and feature-rich template built on
 [Evado Declarative Framework](https://github.com/mkhorin/evado)
 for rapid web app development.
 
-![Evado Declarative Framework](https://github.com/mkhorin/evado/blob/master/doc/evado-framework-steps.jpg)
+[![Evado Declarative Framework](https://github.com/mkhorin/evado/blob/master/doc/evado-framework-steps.jpg)](https://mkhorin.github.io/evado-site/)
 
 ## Docker installation
 
