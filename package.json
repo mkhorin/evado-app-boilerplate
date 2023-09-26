@@ -1,18 +1,15 @@
 {
   "name": "evado-app-boilerplate",
-  "version": "4.6.1",
+  "version": "4.7.0",
   "description": "Boilerplate App built on Evado Declarative Framework",
   "author": "Maxim Khorin",
   "license": "MIT",
-  "engines": {
-    "node": ">=16.13.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mkhorin/evado-app-boilerplate.git"
   },
   "dependencies": {
-    "evado": "~5.6.0",
+    "evado": "~5.7.0",
     "evado-api-base": "~4.5.0",
     "evado-api-navigation": "~2.2.0",
     "evado-meta-base": "~4.6.0",
